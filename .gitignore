@@ -1,7 +1,10 @@
-
 *.html
 
 *.pdf
+
+output/
+data/
+appengine/
 
 draft-weekly-update.txt
 
