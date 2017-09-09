@@ -1,5 +1,5 @@
 # AS-Map-Scripts
-Scripts for the daily report on the Internet routing in Lebanon
+Scripts for the daily report on the Internet routing in Lebanon available on http://internet-today.lahoud.fr
 
 ## Introduction
 internettoday is a daily report on the Internet routing in Lebanon. 
