@@ -1,6 +1,5 @@
 # syntax: python script-cc-routing-report-v2.py 20120809-0800 LB
 # preliminary:
-# http://www.ripe.net/data-tools/stats/ris/ris-raw-data
 # zcat bview.20120719.0800.gz | bgpdump -m - > routes.bview.20120719.0800
 #!/usr/local/bin/python
 
