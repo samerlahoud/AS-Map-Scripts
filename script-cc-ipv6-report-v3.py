@@ -107,14 +107,6 @@ for ipv6_prefix in cc_allocated_ipv6_prefix_list:
 	routing_status_seen_nb_RRC = prefix_routing_status_json['data']['visibility']['v6']['ris_peers_seeing']
  	routing_status_total_nb_RRC = prefix_routing_status_json['data']['visibility']['v6']['total_ris_peers']
 	
-	# visibility extraction
-	# Commented for RIPE unavailability
-	# prefix_visibility_json = simplejson.load(urllib.urlopen('https://stat.ripe.net/data/visibility/data.json?resource='+ipv6_prefix)) 
-# 	for i in range(len(prefix_visibility_json['data']['visibilities'])):
-# 		visibility_total_nb_RRC = visibility_total_nb_RRC + int(prefix_visibility_json['data']['visibilities'][i]['ipv6_full_table_peer_count'])
-# 		visibility_seen_nb_RRC = visibility_seen_nb_RRC + int(prefix_visibility_json['data']['visibilities'][i]['ipv6_full_table_peer_count']) - len(prefix_visibility_json['data']['visibilities'][i]['ipv6_full_table_peers_not_seeing'])
-		
-	
 	# looking-glass extraction => too slow !
 	# prefix_looking_glass_json = simplejson.load(urllib.urlopen('https://stat.ripe.net/data/looking-glass/data.json?resource='+ipv6_prefix))
  	# for RRC_key in prefix_looking_glass_json['data']['rrcs'].keys():
